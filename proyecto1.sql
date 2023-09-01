@@ -241,8 +241,7 @@ CONSTRAINT PK_SOLICITUD_REVOCACION_SUSPENSION PRIMARY KEY (id),
 CONSTRAINT FK_SOLICITUD_REVOCACION_SUSPENSION_ESTADO_ID FOREIGN KEY (estado_revocacion_id) REFERENCES estado_revocacion(id),
 CONSTRAINT FK_SOLICITUD_REVOCACION_SUSPENSION_USUARIO_FINAL_ID FOREIGN KEY (usuario_final_id) REFERENCES usuario_final(id)
 );
-INSERT INTO solicitud_revocacion_suspension (id, usuario_final_id, estado_revocacion_id, descripcion)
-									VALUES ('1','4','1','Favor de revocar la suspension ya que cancele el libro dañado');
+
 
 
 -- USUARIOS DE ADMINISTRACION
@@ -328,5 +327,8 @@ INSERT INTO transporte_usuario (id, biblioteca_id, usuario_final_id, transportis
 -- INSERT INTO incidencia (id, prestamo_id, tipo_incidencia_id, pago) VALUES ('1','1','1','50.75');
 
 -- SOLICITUD DE RENOVACION DE SUSPENSION
-
+/*
+INSERT INTO solicitud_revocacion_suspension (id, usuario_final_id, estado_revocacion_id, descripcion)
+									VALUES ('1','4','1','Favor de revocar la suspension ya que cancele el libro dañado');
+*/
 
