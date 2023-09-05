@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Juan",
+    "apellido": "Pérez",
+    "edad": 30,
+    "ciudad": "Ejemploville",
+    "casado": false,
+    "hijos": ["Ana", "Carlos"]
+  },
+  {
+    "nombre": "María",
+    "apellido": "Gómez",
+    "edad": 25,
+    "ciudad": "Ciudad Ejemplo",
+    "casado": true,
+    "hijos": ["Luis"]
+  },
+  {
+    "nombre": "Carlos",
+    "apellido": "López",
+    "edad": 45,
+    "ciudad": "Otra Ciudad",
+    "casado": true,
+    "hijos": ["Sofía", "Pedro", "Lucía"]
+  }
+]
